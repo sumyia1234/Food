@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "343958825276",
+    "project_id": "food-efe75",
+    "storage_bucket": "food-efe75.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343958825276:android:5814442e9f98cff946d639",
+        "android_client_info": {
+          "package_name": "dev.sumyia.food"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGa0p64228erlVQSAe_DF22M8ervTSYRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
