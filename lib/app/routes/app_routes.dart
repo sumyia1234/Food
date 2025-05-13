@@ -8,6 +8,7 @@ abstract class Routes {
   static const ANIM_SPLASH = _Paths.ANIM_SPLASH;
   static const ROOT = _Paths.ROOT;
   static const PROFILE = _Paths.PROFILE;
+  static const AUTH = _Paths.AUTH;
 }
 
 abstract class _Paths {
@@ -17,4 +18,5 @@ abstract class _Paths {
   static const ANIM_SPLASH = '/anim-splash';
   static const ROOT = '/root';
   static const PROFILE = '/profile';
+  static const AUTH = '/auth';
 }

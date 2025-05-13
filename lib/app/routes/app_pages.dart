@@ -1,5 +1,7 @@
 import 'package:get/get.dart';
 
+import '../modules/Auth/bindings/auth_binding.dart';
+import '../modules/Auth/views/auth_view.dart';
 import '../modules/Root/bindings/root_binding.dart';
 import '../modules/Root/views/root_view.dart';
 import '../modules/anim_splash/bindings/anim_splash_binding.dart';
@@ -16,7 +18,7 @@ part 'app_routes.dart';
 class AppPages {
   AppPages._();
 
-  static const INITIAL = Routes.ANIM_SPLASH;
+  static const INITIAL = Routes.HOME;
 
   static final routes = [
     GetPage(
@@ -41,8 +43,13 @@ class AppPages {
     ),
     GetPage(
       name: _Paths.PROFILE,
-      page: () => const ProfileView(),
+      page: () => ProfileView(),
       binding: ProfileBinding(),
+    ),
+    GetPage(
+      name: _Paths.AUTH,
+      page: () => AuthView(),
+      binding: AuthBinding(),
     ),
   ];
 }
